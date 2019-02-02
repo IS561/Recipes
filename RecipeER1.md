@@ -1,5 +1,5 @@
 ---
-title: Eneity classes and relationships for recipes
+title: Entity classes and relationships for recipes
 author: Dave Dubin
 date: February, 2019
 references:
@@ -187,7 +187,7 @@ property to obtain. Examples include "saucepan," "paring knife,"
 * **Cardinality:** 1-to-many
 * **Remarks:** Some recipe steps are themselves sequences of smaller
     steps. In the meronymic classification of Winston, Chaffin, and
-    Herrmann (-@winston1987) this is an "activity/feature" relationship.
+    Herrmann -@winston1987 this is an "activity/feature" relationship.
 
 ### Includes
 * **Scope note:** participation of a step in a recipe.
