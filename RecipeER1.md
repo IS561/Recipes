@@ -1,4 +1,29 @@
+---
+title: Eneity classes and relationships for recipes
+author: Dave Dubin
+date: February, 2019
+references:
+- id: winston1987
+  type: article-journal
+  author:
+  - family: Winston
+    given: Morton E.
+  - family: Chaffin
+    given: Roger
+  - family: Herrmann
+    given: Douglas
+  issued:
+  - year: '1987'
+  title: A taxonomy of part-whole relations
+  container-title: 'Cognitive science'
+  publisher: Elsevier
+  volume: 11
+  issue: 4
+  page: '417-444'
+...
+---
 ## All entities are understood to have titles and and descriptions expressed in text.
+
 
 # Entity Classes
 
@@ -11,7 +36,7 @@ completed recipe. Examples include "potato," "salt," "cornstarch," and
 A class of physical objects, each a like quantity of the same food
 substance. Examples include "one bay leaf," "two teaspoons of
 cornstarch," and ""three grams of salt." Instances of the class
-"Ingredient" are themselves classes, since "one bay leadf" is not a
+"Ingredient" are themselves classes, since "one bay lead" is not a
 particular bay leaf, but whatever bay leaf is used during the
 execution of a recipe.
 
@@ -162,7 +187,7 @@ property to obtain. Examples include "saucepan," "paring knife,"
 * **Cardinality:** 1-to-many
 * **Remarks:** Some recipe steps are themselves sequences of smaller
     steps. In the meronymic classification of Winston, Chaffin, and
-    Herrmann (1987) this is an "activity/feature" relationship.
+    Herrmann (-@winston1987) this is an "activity/feature" relationship.
 
 ### Includes
 * **Scope note:** participation of a step in a recipe.
