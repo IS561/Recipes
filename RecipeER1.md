@@ -86,7 +86,7 @@ property to obtain. Examples include "saucepan," "paring knife,"
 # Relationships
 
 ### Requires
-* Scope note: participation of an ingredient in a recipe.
+* **Scope note:** participation of an ingredient in a recipe.
 * Domain: Recipe
 * Codomain: Ingredient
 * Arity: 2 (binary relationship)
@@ -94,7 +94,7 @@ property to obtain. Examples include "saucepan," "paring knife,"
 * Remarks: Consider recording the nutritional content of an ingredient; it will be easier to keep consistent if each "ingredient" is characterized once. Assuming the nutritional details are consistent across recipes, many-to-many is the more appropriate cardinality.
 
 ### Includes
-* Scope note: participation of a step in a recipe.
+* **Scope note:** participation of a step in a recipe.
 * Domain: Recipe
 * Codomain: Step
 * Arity: 2
@@ -102,28 +102,28 @@ property to obtain. Examples include "saucepan," "paring knife,"
 * Remarks: Some steps will recur in many recipes.
 
 ### Has Quantity
-* Scope note: The amount of a substance constituting an ingredient.
+* **Scope note:** The amount of a substance constituting an ingredient.
 * Domain: Ingredient
 * Codomain: Quantity
 * Arity: 2
 * Cardinality: many-to-1
 
 ### Has Constituent
-* Scope note: the food substance constituting the ingredient
+* **Scope note:** the food substance constituting the ingredient
 * Domain: Ingredient
 * Codomain: Food substance
 * Arity: 2
 * Cardinality: many-to-1
 
 ### Directly follows
-* Scope note: a temporal relationship between a step and the step that immediately follows it
+* **Scope note:** a temporal relationship between a step and the step that immediately follows it
 * Domain: Step
 * Codomain: Step
 * Arity: 2
 * Cardinality: 1-to-1
 
 ### Has Substep
-* Scope note: An ordered, functional feature of an activity. A piece of a larger step.
+* **Scope note:** An ordered, functional feature of an activity. A piece of a larger step.
 * Domain: Step
 * Codomain: Step
 * Arity: 2
@@ -131,7 +131,7 @@ property to obtain. Examples include "saucepan," "paring knife,"
 * Remarks: Some recipe steps are themselves sequences of smaller steps. In the meronymic classification of Winston, Chaffin, and Herrmann (1987) this is an "activity/feature" relationship.
 
 ### Equal magnitude
-* Scope note: equivalence relationship obtaining between quantities of equal magnitude
+* **Scope note:** equivalence relationship obtaining between quantities of equal magnitude
 * Domain: Quantity
 * Codomain: Quantity
 * Arity: 2
@@ -139,7 +139,7 @@ property to obtain. Examples include "saucepan," "paring knife,"
 * Remarks: For example, 1 US teaspoon equals 4.92892 ml.
 
 ### Equal or greater magnitude
-* Scope note: relationship obtaining between commensurable quantities where one has a greater or equal magnitude. 
+* **Scope note:** relationship obtaining between commensurable quantities where one has a greater or equal magnitude. 
 * Domain: Quantity
 * Codomain: Quantity
 * Arity: 2
@@ -147,7 +147,7 @@ property to obtain. Examples include "saucepan," "paring knife,"
 * Remarks: Domain and codomain are quantity, not amounts of a particular substance, so participants must be commensurable even if the measurement units are different. For example, "five cups is greater than or equal to one teaspoon." But not "2 pounds of salt is greater than or equal to 2 teaspoons of salt."
 
 ### Equal or greater amount
-* Scope note: an asymmetric relationship between ingredients constituted of the same substance, without the requirement for commensurable quantities or magnitudes.
+* **Scope note:** an asymmetric relationship between ingredients constituted of the same substance, without the requirement for commensurable quantities or magnitudes.
 * Domain: Ingredient
 * Codomain: Ingredient
 * Arity: 2
@@ -155,7 +155,7 @@ property to obtain. Examples include "saucepan," "paring knife,"
 * Remarks: Domain and codomain are ingredient, not quantity. For example, "2 pounds of salt is an equal or greater amount than 2 teaspoons of salt," but not "Five cups is an equal or greater amount than 2 teaspoons."
 
 ### Has source
-* Scope note: An attribution of the source of some recipe or other information.
+* **Scope note:** An attribution of the source of some recipe or other information.
 * Domain: Recipe
 * Codomain: Source
 * Arity: 2
@@ -163,14 +163,14 @@ property to obtain. Examples include "saucepan," "paring knife,"
 * Remarks: More properly, the domain should be a superclass like "information resource," but we're not including upper level classes in this list.
 
 ### Uses tool
-* Scope note: The relationship obtaining between a step in a recipe and a tool employed during that step.
+* **Scope note:** The relationship obtaining between a step in a recipe and a tool employed during that step.
 * Domain: Step
 * Codomain: Tool
 * Arity: 2
 * Cardinality: many-to-many
 
 ### Realizes property
-* Scope note: An instrumental relationship obtaining between a tool and a qualifying property realized through the use of the tool.
+* **Scope note:** An instrumental relationship obtaining between a tool and a qualifying property realized through the use of the tool.
 * Domain: Tool
 * Codomain: Qualifying property
 * Arity: 2
