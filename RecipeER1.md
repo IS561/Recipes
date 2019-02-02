@@ -3,7 +3,8 @@
 # Entity Classes
 
 ### Recipe
-* A step-wise procedure for producing a quantity of food from a group of ingredients.
+A step-wise procedure for producing a quantity of food from a group of
+ingredients.
 
 #### Recipe attributes
 * Yield (Quantity).
@@ -13,51 +14,74 @@
 * Language
 
 ### Qualifying property 
-* A property required for a quantity of a food substance in order to qualify for an ingredient
-* Examples: "chopped," "sifted fine," "sautéd  to clear"
-* Remark: Any ingredient may have more than one of these, so the only way this works as an attribute is conjunctively.
+
+A property required for a quantity of a food substance in order to
+qualify for an ingredient Examples include "chopped," "sifted fine,"
+and "sautéd to clear."  Since any ingredient may have more than one of
+these, this can't be a simple attribute of an ingredient.
 
 #### Attributes of a qualifying property
-* Prerequisite (truth value). A prerequisite property is expected to obtain prior to the first step of the recipe through action by the cook (chopping, defrosting, etc.)
-* Requirement (truth value). A requirement property distinguishes suitable from unsuitable food substances (fresh lemon juice as compared to bottled, kosher salt as compared to ordinary).
+* Prerequisite (truth value). A prerequisite property is expected to
+  obtain prior to the first step of the recipe through action by the
+  cook (chopping, defrosting, etc.)
+* Requirement (truth value). A requirement property distinguishes
+  suitable from unsuitable food substances (fresh lemon juice as
+  compared to bottled, kosher salt as compared to ordinary).
 
 ### Ingredient
-A class of physical objects, each a quantity of a food substance
-* Example: "1 bay leaf" is not a particular bay leaf, but whatever bay leaf is used during the execution of a particular recipe.
+
+A class of physical objects, each a like quantity of the same food
+substance. Examples include "one bay leaf," "two teaspoons of
+cornstarch," and ""three grams of salt." Instances of the class
+"Ingredient" are themselves classes, since "one bay leadf" is not a
+particular bay leaf, but whatever bay leaf is used during the
+execution of a recipe.
 
 #### Ingredient attributes
-* Optional (truth value).
+* Optional (truth value). This property obtains if the ingredient is
+  optional.
 
 ### Quantity
-A number with an optional unit of measurement, for example "2" or "2 teaspoons." A description of a magnitude.
-Units of measurement are essential to the identity of what we'll call a quantity, so that "1 teaspoon" is a different quantity than "4.92892 cc" even though they are the same magnitude.
+A number with an optional unit of measurement, for example "2" or "2
+teaspoons." Quantities are descriptions of magnitudes.  Units of
+measurement are essential to the identity of what we'll call a
+quantity, so that "1 teaspoon" is a different quantity than "4.92892
+cc" even though they are the same magnitude.
 
 #### Quantity attributes
 * Type: discrete vs. continuous
 
-### Food Substance
-A type of food or edible material that forms an ingredient or completed recipe. Examples include "potato," "salt," "cornstarch," and "chicken broth."
+### Food Substance 
+A type of food or edible material that forms an ingredient or
+completed recipe. Examples include "potato," "salt," "cornstarch," and
+"chicken broth." Instances of this class are themselves classes.
 
 
 ### Step
-* A discrete ordered part of a repeatable process.
 
-#### Example of a step
-Place chicken and next 11 ingredients in a 6-qt. slow cooker. Cover and cook on LOW 6 hours or until chicken and vegetables are tender and chicken separates from bone.
+A discrete ordered part of a repeatable process.  An example of a step
+would be, "place chicken and next 11 ingredients in a 6-qt. slow
+cooker. Cover and cook on LOW 6 hours or until chicken and vegetables
+are tender and chicken separates from bone."
 
 #### Attributes of a step
-* First in sequence (truth value)
-* optional (truth value)
+
+* First in sequence (truth value). This property obtains if the step
+  is the first in a sequence of steps.
+* Optional (truth value). This property obtains if the step is
+  optional.
 
 ### Source
-* A bibliographic description of an information resource
+* A bibliographic description of an information resource.
 
 #### Attributes of a source
-* Content (text)
-* Notation (text)
+* Content (text). The bibliographic description expressed as text.
+* Notation (text). The notation in which the description is expressed.
 
 ### Tool
-* A physical object that participates in a step or causes a qualifying property to obtain. Examples include "saucepan," "paring knife," "grater."
+A physical object that participates in a step or causes a qualifying
+property to obtain. Examples include "saucepan," "paring knife,"
+"grater."
 
 # Relationships
 
