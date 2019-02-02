@@ -22,7 +22,34 @@ references:
   page: '417-444'
 ...
 ---
-## All entities are understood to have titles and and descriptions expressed in text.
+
+# Overview
+
+This is a first draft of entity classes and relationships in the
+domain of recipes.  I've based my choice of the twenty most important
+terms on a use case of matching published recipes with tools in the
+user's kitchen and ingredients in the user's pantry. An information
+system based on these modeling choices would need to answer questions
+about what meal could be prepared with ingredients at hand, or what
+would need to be purchased in advance of preparing a particular
+recipe. Most people don't currently have the contents of their kitchen
+cabinets listed in a database, but advances in smart appliances and
+smart shopping carts make prospects for such information systems
+plausible for the near future.
+
+Examples of how the use cases informed the model are the "equal or
+greater amount" and "equal or greater magnitude" relationships that
+don't appear directly in published recipes or cookbooks, but which
+would be instrumental in determining whether, for example, a bag of
+flour would contain enough for three sheets of chocolate
+cookies. Other examples are the "uses tool" and "realizes property"
+relationships that can help identify tools necessary for the recipe
+whether explicity listed (the former) or not (the latter).
+
+In any information system all entities would have titles and and
+descriptions expressed in text. Since that is understood (and since
+this is a domain model, not a data model), standard metadata fields
+like title and description are not listed among the attributes.
 
 
 # Entity Classes
@@ -228,4 +255,5 @@ property to obtain. Examples include "saucepan," "paring knife,"
 * **Arity:** 2
 * **Cardinality:** many-to-many
 
+# References
 
