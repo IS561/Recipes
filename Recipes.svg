@@ -1,167 +1,833 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="40cm" height="26cm" viewBox="21 116 789 517" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <g>
-    <rect style="fill: #ffffff" x="22" y="185" width="135.15" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="22" y="185" width="135.15" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="89.575" y="205">Food substance</text>
-    <rect style="fill: #ffffff" x="22" y="213" width="135.15" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="22" y="213" width="135.15" height="8"/>
-    <rect style="fill: #ffffff" x="22" y="221" width="135.15" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="22" y="221" width="135.15" height="8"/>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40cm"
+   height="26cm"
+   viewBox="21 116 789 517"
+   version="1.1"
+   id="svg586"
+   sodipodi:docname="Recipes.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata592">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs590" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview588"
+     showgrid="false"
+     inkscape:zoom="0.54544872"
+     inkscape:cx="1024.4917"
+     inkscape:cy="491.33858"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg586" />
+  <g
+     id="g316">
+    <rect
+       style="fill: #ffffff"
+       x="22"
+       y="185"
+       width="135.15"
+       height="28"
+       id="rect302" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="22"
+       y="185"
+       width="135.15"
+       height="28"
+       id="rect304" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="89.575"
+       y="205"
+       id="text306">Food substance</text>
+    <rect
+       style="fill: #ffffff"
+       x="22"
+       y="213"
+       width="135.15"
+       height="8"
+       id="rect308" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="22"
+       y="213"
+       width="135.15"
+       height="8"
+       id="rect310" />
+    <rect
+       style="fill: #ffffff"
+       x="22"
+       y="221"
+       width="135.15"
+       height="8"
+       id="rect312" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="22"
+       y="221"
+       width="135.15"
+       height="8"
+       id="rect314" />
   </g>
-  <g>
-    <rect style="fill: #ffffff" x="390.602" y="193" width="95.8" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="390.602" y="193" width="95.8" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="438.502" y="213">Ingredient</text>
-    <rect style="fill: #ffffff" x="390.602" y="221" width="95.8" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="390.602" y="221" width="95.8" height="8"/>
-    <rect style="fill: #ffffff" x="390.602" y="229" width="95.8" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="390.602" y="229" width="95.8" height="8"/>
+  <g
+     id="g332">
+    <rect
+       style="fill: #ffffff"
+       x="390.602"
+       y="193"
+       width="95.8"
+       height="28"
+       id="rect318" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="390.602"
+       y="193"
+       width="95.8"
+       height="28"
+       id="rect320" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="438.502"
+       y="213"
+       id="text322">Ingredient</text>
+    <rect
+       style="fill: #ffffff"
+       x="390.602"
+       y="221"
+       width="95.8"
+       height="8"
+       id="rect324" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="390.602"
+       y="221"
+       width="95.8"
+       height="8"
+       id="rect326" />
+    <rect
+       style="fill: #ffffff"
+       x="390.602"
+       y="229"
+       width="95.8"
+       height="8"
+       id="rect328" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="390.602"
+       y="229"
+       width="95.8"
+       height="8"
+       id="rect330" />
   </g>
-  <g>
-    <rect style="fill: #ffffff" x="263.186" y="421.634" width="166.7" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="263.186" y="421.634" width="166.7" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="346.536" y="441.634">Qualifying Property</text>
-    <rect style="fill: #ffffff" x="263.186" y="449.634" width="166.7" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="263.186" y="449.634" width="166.7" height="8"/>
-    <rect style="fill: #ffffff" x="263.186" y="457.634" width="166.7" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="263.186" y="457.634" width="166.7" height="8"/>
+  <g
+     id="g348">
+    <rect
+       style="fill: #ffffff"
+       x="263.186"
+       y="421.634"
+       width="166.7"
+       height="28"
+       id="rect334" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="263.186"
+       y="421.634"
+       width="166.7"
+       height="28"
+       id="rect336" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="346.536"
+       y="441.634"
+       id="text338">Qualifying Property</text>
+    <rect
+       style="fill: #ffffff"
+       x="263.186"
+       y="449.634"
+       width="166.7"
+       height="8"
+       id="rect340" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="263.186"
+       y="449.634"
+       width="166.7"
+       height="8"
+       id="rect342" />
+    <rect
+       style="fill: #ffffff"
+       x="263.186"
+       y="457.634"
+       width="166.7"
+       height="8"
+       id="rect344" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="263.186"
+       y="457.634"
+       width="166.7"
+       height="8"
+       id="rect346" />
   </g>
-  <g>
-    <rect style="fill: #ffffff" x="57.1082" y="389.182" width="79.75" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="57.1082" y="389.182" width="79.75" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="96.9832" y="409.182">Quantity</text>
-    <rect style="fill: #ffffff" x="57.1082" y="417.182" width="79.75" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="57.1082" y="417.182" width="79.75" height="8"/>
-    <rect style="fill: #ffffff" x="57.1082" y="425.182" width="79.75" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="57.1082" y="425.182" width="79.75" height="8"/>
+  <g
+     id="g364">
+    <rect
+       style="fill: #ffffff"
+       x="57.1082"
+       y="389.182"
+       width="79.75"
+       height="28"
+       id="rect350" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="57.1082"
+       y="389.182"
+       width="79.75"
+       height="28"
+       id="rect352" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="96.9832"
+       y="409.182"
+       id="text354">Quantity</text>
+    <rect
+       style="fill: #ffffff"
+       x="57.1082"
+       y="417.182"
+       width="79.75"
+       height="8"
+       id="rect356" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="57.1082"
+       y="417.182"
+       width="79.75"
+       height="8"
+       id="rect358" />
+    <rect
+       style="fill: #ffffff"
+       x="57.1082"
+       y="425.182"
+       width="79.75"
+       height="8"
+       id="rect360" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="57.1082"
+       y="425.182"
+       width="79.75"
+       height="8"
+       id="rect362" />
   </g>
-  <g>
-    <rect style="fill: #ffffff" x="734.238" y="249.356" width="63.95" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="734.238" y="249.356" width="63.95" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="766.213" y="269.356">Recipe</text>
-    <rect style="fill: #ffffff" x="734.238" y="277.356" width="63.95" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="734.238" y="277.356" width="63.95" height="8"/>
-    <rect style="fill: #ffffff" x="734.238" y="285.356" width="63.95" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="734.238" y="285.356" width="63.95" height="8"/>
+  <g
+     id="g380">
+    <rect
+       style="fill: #ffffff"
+       x="734.238"
+       y="249.356"
+       width="63.95"
+       height="28"
+       id="rect366" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="734.238"
+       y="249.356"
+       width="63.95"
+       height="28"
+       id="rect368" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="766.213"
+       y="269.356"
+       id="text370">Recipe</text>
+    <rect
+       style="fill: #ffffff"
+       x="734.238"
+       y="277.356"
+       width="63.95"
+       height="8"
+       id="rect372" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="734.238"
+       y="277.356"
+       width="63.95"
+       height="8"
+       id="rect374" />
+    <rect
+       style="fill: #ffffff"
+       x="734.238"
+       y="285.356"
+       width="63.95"
+       height="8"
+       id="rect376" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="734.238"
+       y="285.356"
+       width="63.95"
+       height="8"
+       id="rect378" />
   </g>
-  <g>
-    <rect style="fill: #ffffff" x="733.388" y="117.267" width="65.2" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="733.388" y="117.267" width="65.2" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="765.988" y="137.267">Source</text>
-    <rect style="fill: #ffffff" x="733.388" y="145.267" width="65.2" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="733.388" y="145.267" width="65.2" height="8"/>
-    <rect style="fill: #ffffff" x="733.388" y="153.267" width="65.2" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="733.388" y="153.267" width="65.2" height="8"/>
+  <g
+     id="g396">
+    <rect
+       style="fill: #ffffff"
+       x="733.388"
+       y="117.267"
+       width="65.2"
+       height="28"
+       id="rect382" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="733.388"
+       y="117.267"
+       width="65.2"
+       height="28"
+       id="rect384" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="765.988"
+       y="137.267"
+       id="text386">Source</text>
+    <rect
+       style="fill: #ffffff"
+       x="733.388"
+       y="145.267"
+       width="65.2"
+       height="8"
+       id="rect388" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="733.388"
+       y="145.267"
+       width="65.2"
+       height="8"
+       id="rect390" />
+    <rect
+       style="fill: #ffffff"
+       x="733.388"
+       y="153.267"
+       width="65.2"
+       height="8"
+       id="rect392" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="733.388"
+       y="153.267"
+       width="65.2"
+       height="8"
+       id="rect394" />
   </g>
-  <g>
-    <rect style="fill: #ffffff" x="646.504" y="438.728" width="46.35" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="646.504" y="438.728" width="46.35" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="669.679" y="458.728">Step</text>
-    <rect style="fill: #ffffff" x="646.504" y="466.728" width="46.35" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="646.504" y="466.728" width="46.35" height="8"/>
-    <rect style="fill: #ffffff" x="646.504" y="474.728" width="46.35" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="646.504" y="474.728" width="46.35" height="8"/>
+  <g
+     id="g412">
+    <rect
+       style="fill: #ffffff"
+       x="646.504"
+       y="438.728"
+       width="46.35"
+       height="28"
+       id="rect398" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="646.504"
+       y="438.728"
+       width="46.35"
+       height="28"
+       id="rect400" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="669.679"
+       y="458.728"
+       id="text402">Step</text>
+    <rect
+       style="fill: #ffffff"
+       x="646.504"
+       y="466.728"
+       width="46.35"
+       height="8"
+       id="rect404" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="646.504"
+       y="466.728"
+       width="46.35"
+       height="8"
+       id="rect406" />
+    <rect
+       style="fill: #ffffff"
+       x="646.504"
+       y="474.728"
+       width="46.35"
+       height="8"
+       id="rect408" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="646.504"
+       y="474.728"
+       width="46.35"
+       height="8"
+       id="rect410" />
   </g>
-  <g>
-    <rect style="fill: #ffffff" x="346.714" y="587.646" width="44.45" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="346.714" y="587.646" width="44.45" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="368.939" y="607.646">Tool</text>
-    <rect style="fill: #ffffff" x="346.714" y="615.646" width="44.45" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="346.714" y="615.646" width="44.45" height="8"/>
-    <rect style="fill: #ffffff" x="346.714" y="623.646" width="44.45" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="346.714" y="623.646" width="44.45" height="8"/>
+  <g
+     id="g428">
+    <rect
+       style="fill: #ffffff"
+       x="346.714"
+       y="587.646"
+       width="44.45"
+       height="28"
+       id="rect414" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="346.714"
+       y="587.646"
+       width="44.45"
+       height="28"
+       id="rect416" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="368.939"
+       y="607.646"
+       id="text418">Tool</text>
+    <rect
+       style="fill: #ffffff"
+       x="346.714"
+       y="615.646"
+       width="44.45"
+       height="8"
+       id="rect420" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="346.714"
+       y="615.646"
+       width="44.45"
+       height="8"
+       id="rect422" />
+    <rect
+       style="fill: #ffffff"
+       x="346.714"
+       y="623.646"
+       width="44.45"
+       height="8"
+       id="rect424" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="346.714"
+       y="623.646"
+       width="44.45"
+       height="8"
+       id="rect426" />
   </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="645.499,460.728 480.356,460.728 480.356,400 669.678,400 669.678,438.728 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="575.017" y="396">directly follows</text>
-    <polygon style="fill: #000000" points="638.617,396 638.617,388 646.617,392 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="641.499" y="456.728">1</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="673.678" y="434.728">1</text>
+  <g
+     id="g440">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="645.499,460.728 480.356,460.728 480.356,400 669.678,400 669.678,438.728 "
+       id="polyline430" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal"
+       x="575.017"
+       y="396"
+       id="text432">directly follows</text>
+    <polygon
+       style="fill: #000000"
+       points="638.617,396 638.617,388 646.617,392 "
+       id="polygon434" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal"
+       x="641.499"
+       y="456.728"
+       id="text436">1</text>
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="673.678"
+       y="434.728"
+       id="text438">1</text>
   </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="57.1082,433.182 57.1082,534.158 136.858,534.158 136.858,433.182 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="96.9832" y="530.158">equal magnitude</text>
-    <polygon style="fill: #000000" points="156.733,530.158 156.733,522.158 164.733,526.158 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="61.1082" y="445.182">N</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="140.858" y="445.182">N</text>
+  <polyline
+     id="polyline442"
+     points="57.1082,433.182 57.1082,534.158 136.858,534.158 136.858,433.182 "
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+  <text
+     id="text444"
+     y="549.72968"
+     x="96.9832"
+     style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:middle;fill:#000000"
+     font-size="12.7998">equal magnitude</text>
+  <polygon
+     id="polygon446"
+     points="156.733,522.158 164.733,526.158 156.733,530.158 "
+     style="fill:#000000"
+     transform="translate(0,20.939226)" />
+  <text
+     id="text448"
+     y="445.18201"
+     x="61.1082"
+     style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+     font-size="12.7998">N</text>
+  <text
+     id="text450"
+     y="445.18201"
+     x="140.858"
+     style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+     font-size="12.7998">N</text>
+  <g
+     id="g464">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="438.502,193 438.502,172 508.408,172 508.408,215 487.399,215 "
+       id="polyline454" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal"
+       x="473.455"
+       y="168"
+       id="text456">equal or greater amount</text>
+    <polygon
+       style="fill: #000000"
+       points="564.005,168 564.005,160 572.005,164 "
+       id="polygon458" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="442.502"
+       y="189"
+       id="text460">N</text>
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="491.399"
+       y="211"
+       id="text462">N</text>
   </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="438.502,193 438.502,172 508.408,172 508.408,215 487.399,215 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="473.455" y="168">equal or greater amount</text>
-    <polygon style="fill: #000000" points="564.005,168 564.005,160 572.005,164 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="442.502" y="189">N</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="491.399" y="211">N</text>
+  <g
+     id="g476">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="96.9832,389.182 96.9832,357.496 257.486,357.496 257.486,411.182 137.863,411.182 "
+       id="polyline466" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal"
+       x="177.235"
+       y="353.496"
+       id="text468">equal or greater magnitude </text>
+    <polygon
+       style="fill: #000000"
+       points="69.2846,353.496 69.2846,345.496 61.2846,349.496 "
+       id="polygon470" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="100.983"
+       y="385.182"
+       id="text472">N</text>
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="141.863"
+       y="407.182"
+       id="text474">N</text>
   </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="96.9832,389.182 96.9832,357.496 257.486,357.496 257.486,411.182 137.863,411.182 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="177.235" y="353.496">equal or greater magnitude </text>
-    <polygon style="fill: #000000" points="69.2846,353.496 69.2846,345.496 61.2846,349.496 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="100.983" y="385.182">N</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="141.863" y="407.182">N</text>
+  <g
+     id="g488">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="158.158,207 159.158,207 389.602,207 390.602,207 "
+       id="polyline478" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal"
+       x="274.38"
+       y="203"
+       id="text480">has constituent</text>
+    <polygon
+       style="fill: #000000"
+       points="212.63,203 212.63,195 204.63,199 "
+       id="polygon482" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="162.158"
+       y="203"
+       id="text484">1</text>
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal"
+       x="386.602"
+       y="203"
+       id="text486">N</text>
   </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="158.158,207 159.158,207 389.602,207 390.602,207 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="274.38" y="203">has constituent</text>
-    <polygon style="fill: #000000" points="212.63,203 212.63,195 204.63,199 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="162.158" y="203">1</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="386.602" y="203">N</text>
+  <g
+     id="g500">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="390.602,237 390.602,313.091 57.1082,313.091 57.1082,389.182 "
+       id="polyline490" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal"
+       x="223.855"
+       y="309.091"
+       id="text492">has quantity</text>
+    <polygon
+       style="fill: #000000"
+       points="173.655,309.091 173.655,301.091 165.655,305.091 "
+       id="polygon494" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="394.602"
+       y="249"
+       id="text496">N</text>
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="61.1082"
+       y="385.182"
+       id="text498">1</text>
   </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="390.602,237 390.602,313.091 57.1082,313.091 57.1082,389.182 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="223.855" y="309.091">has quantity</text>
-    <polygon style="fill: #000000" points="173.655,309.091 173.655,301.091 165.655,305.091 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="394.602" y="249">N</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="61.1082" y="385.182">1</text>
+  <polyline
+     id="polyline502"
+     points="766.214,249.356 766.214,216.82 765.988,216.82 765.988,161.267 "
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+  <text
+     id="text504"
+     y="-753.21851"
+     x="205.12254"
+     style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:middle;fill:#000000"
+     font-size="12.7998"
+     transform="rotate(90)">has source</text>
+  <polygon
+     id="polygon506"
+     points="723.601,204.82 715.601,208.82 723.601,212.82 "
+     style="fill:#000000"
+     transform="rotate(90,738.06768,213.18652)" />
+  <text
+     id="text508"
+     y="245.356"
+     x="770.21399"
+     style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+     font-size="12.7998">N</text>
+  <text
+     id="text510"
+     y="173.267"
+     x="769.98798"
+     style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+     font-size="12.7998">N</text>
+  <g
+     id="g524">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="692.854,452.728 796.196,452.728 796.196,565.782 669.678,565.782 669.678,482.728 "
+       id="polyline514" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal"
+       x="732.937"
+       y="561.782"
+       id="text516">has substep</text>
+    <polygon
+       style="fill: #000000"
+       points="777.287,561.782 777.287,553.782 785.287,557.782 "
+       id="polygon518" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="696.854"
+       y="448.728"
+       id="text520">N</text>
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="673.678"
+       y="494.728"
+       id="text522">1</text>
   </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="766.214,249.356 766.214,216.82 765.988,216.82 765.988,161.267 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="766.101" y="212.82">has source</text>
-    <polygon style="fill: #000000" points="723.601,212.82 723.601,204.82 715.601,208.82 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="770.214" y="245.356">N</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="769.988" y="173.267">N</text>
+  <g
+     id="g536">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="798.188,293.356 798.188,373.854 692.854,373.854 692.854,438.728 "
+       id="polyline526" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal"
+       x="745.521"
+       y="369.854"
+       id="text528">includes</text>
+    <polygon
+       style="fill: #000000"
+       points="710.721,369.854 710.721,361.854 702.721,365.854 "
+       id="polygon530" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="802.188"
+       y="305.356"
+       id="text532">N</text>
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="696.854"
+       y="434.728"
+       id="text534">N</text>
   </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="692.854,452.728 796.196,452.728 796.196,565.782 669.678,565.782 669.678,482.728 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="732.937" y="561.782">has substep</text>
-    <polygon style="fill: #000000" points="777.287,561.782 777.287,553.782 785.287,557.782 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="696.854" y="448.728">N</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="673.678" y="494.728">1</text>
+  <polyline
+     id="polyline538"
+     points="346.714,587.646 346.714,514.528 346.536,514.528 346.536,465.634 "
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+  <g
+     id="g611"
+     transform="rotate(90,318.9955,518.83472)">
+    <text
+       font-size="12.7998"
+       style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:middle;fill:#000000"
+       x="346.625"
+       y="510.52802"
+       id="text540">realizes property</text>
+    <polygon
+       style="fill:#000000"
+       points="277.175,510.528 277.175,502.528 269.175,506.528 "
+       id="polygon542" />
   </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="798.188,293.356 798.188,373.854 692.854,373.854 692.854,438.728 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="745.521" y="369.854">includes</text>
-    <polygon style="fill: #000000" points="710.721,369.854 710.721,361.854 702.721,365.854 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="802.188" y="305.356">N</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="696.854" y="434.728">N</text>
+  <text
+     id="text544"
+     y="583.646"
+     x="350.71399"
+     style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+     font-size="12.7998">N</text>
+  <text
+     id="text546"
+     y="477.634"
+     x="350.53601"
+     style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:monospace;text-anchor:start;fill:#000000"
+     font-size="12.7998">N</text>
+  <g
+     id="g560">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="734.238,293.356 734.238,323.078 486.402,323.078 486.402,237 "
+       id="polyline550" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal"
+       x="610.32"
+       y="319.078"
+       id="text552">requires</text>
+    <polygon
+       style="fill: #000000"
+       points="575.52,319.078 575.52,311.078 567.52,315.078 "
+       id="polygon554" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="738.238"
+       y="305.356"
+       id="text556">N</text>
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="490.402"
+       y="249"
+       id="text558">N</text>
   </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="346.714,587.646 346.714,514.528 346.536,514.528 346.536,465.634 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="346.625" y="510.528">realizes property</text>
-    <polygon style="fill: #000000" points="277.175,510.528 277.175,502.528 269.175,506.528 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="350.714" y="583.646">N</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="350.536" y="477.634">N</text>
+  <g
+     id="g572">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="391.164,587.646 391.164,535.187 646.504,535.187 646.504,482.728 "
+       id="polyline562" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal"
+       x="518.834"
+       y="531.187"
+       id="text564">uses tool</text>
+    <polygon
+       style="fill: #000000"
+       points="480.184,531.187 480.184,523.187 472.184,527.187 "
+       id="polygon566" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="395.164"
+       y="583.646"
+       id="text568">N</text>
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="650.504"
+       y="494.728"
+       id="text570">N</text>
   </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="734.238,293.356 734.238,323.078 486.402,323.078 486.402,237 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="610.32" y="319.078">requires</text>
-    <polygon style="fill: #000000" points="575.52,319.078 575.52,311.078 567.52,315.078 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="738.238" y="305.356">N</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="490.402" y="249">N</text>
-  </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="391.164,587.646 391.164,535.187 646.504,535.187 646.504,482.728 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="518.834" y="531.187">uses tool</text>
-    <polygon style="fill: #000000" points="480.184,531.187 480.184,523.187 472.184,527.187 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="395.164" y="583.646">N</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="650.504" y="494.728">N</text>
-  </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="438.502,237 438.502,345.5 346.536,345.5 346.536,421.634 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="392.519" y="341.5">satisfies</text>
-    <polygon style="fill: #000000" points="353.869,341.5 353.869,333.5 345.869,337.5 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="442.502" y="249">N</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="350.536" y="417.634">N</text>
+  <g
+     id="g584">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="438.502,237 438.502,345.5 346.536,345.5 346.536,421.634 "
+       id="polyline574" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal"
+       x="392.519"
+       y="341.5"
+       id="text576">satisfies</text>
+    <polygon
+       style="fill: #000000"
+       points="353.869,341.5 353.869,333.5 345.869,337.5 "
+       id="polygon578" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="442.502"
+       y="249"
+       id="text580">N</text>
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="350.536"
+       y="417.634"
+       id="text582">N</text>
   </g>
 </svg>
