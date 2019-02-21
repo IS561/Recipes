@@ -22,5 +22,7 @@ stepin(Substep,Recipe) :- stepin(Step,Recipe), substepof(Substep,Step).
 realizes(slowcooker, cooked).
 
 needstool(Recipe,Tool,Property) :- stepin(Step,Recipe), utool(Step,Tool), realizes(Tool,Property).
+needstool(Recipe,something,Property) :- requires(Recipe,Ingredient), satisfies(Ingredient, Property).
+
 
 
