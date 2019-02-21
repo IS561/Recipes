@@ -1,0 +1,26 @@
+% Slow cooker chicken soup
+
+includes(sccs,step2).
+dfollows(step2-1,step2-2).
+hsubstep(step2,step2-1).
+requires(sccs,chicken).
+hasconstit(chicken,chickenthighs).
+hasquant(chicken,lbs2).
+satisfies(chicken,bonein).
+satisfies(chicken,skinned).
+satisfies(chicken,trimmed).
+utool(step2-1,slowcooker).
+utool(step2-2,thing1).
+realizes(thing1,diced).
+
+substepof(Substep,Step) :- hsubstep(Step,Substep).
+substepof(Substepb,Step) :- substepof(Substepa,Step), dfollows(Substepa,Substepb).
+
+stepin(Step,Recipe) :- includes(Recipe,Step).
+stepin(Substep,Recipe) :- stepin(Step,Recipe), substepof(Substep,Step).
+
+realizes(slowcooker, cooked).
+
+needstool(Recipe,Tool,Property) :- stepin(Step,Recipe), utool(Step,Tool), realizes(Tool,Property).
+
+
