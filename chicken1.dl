@@ -13,6 +13,40 @@ satisfies(chicken,trimmed).
 utool(step2p1,slowcooker).
 utool(step2p2,thing1).
 realizes(thing1,diced).
+
+toolfor(Tool,Step) :- utool(Step,Tool).
+step(Step) :- utool(Step,_).
+tool(Tool) :- utool(_,Tool).
+
+satisfiedby(Property,Ingredient) :- satisfies(Ingredient,Property).
+ingredient(Ingredient) :- satisfies(Ingredient,_).
+qproperty(Property) :- satisfies(_,Property).
+
+% includes domain, and codomain
+recipe(Recipe) :- includes(Recipe,_).
+step(Step) :- includes(_,Step).
+
+constitof(Food,Ingredient) :- hasconstit(Ingredient,Food).
+ingredient(Ingredient) :- hasconstit(Ingredient,_).
+foodsubstance(Food) :- hasconstit(_,Food).
+
+quantof(Quantity,Ingredient) :- hasquant(Ingredient,Quantity).
+quantity(Quantity) :- hasquant(_,Quantity).
+ingredient(Ingredient) :- hasquant(Ingredient,_).
+
+followedby(Step2,Step1) :- dfollows(Step1,Step2).
+step(Step) :- dfollows(Step,_).
+step(Step) :- dfollows(_,Step).
+
+substepof(Substep,Step) :- hsubstep(Step,Substep).
+step(Step) :- hsubstep(Step,_).
+step(Step) :- hsubstep(_,Step).
+
+requiredby(Ingredient,Recipe) :- requires(Recipe,Ingredient).
+recipe(Recipe) :- requires(Recipe,_).
+ingredient(Ingredient) :- requires(_,Ingredient).
+
+
 %
 % substepof is the inverse relation to hsubstep and anything
 % directly following a substep is a substep of the same step
