@@ -23,10 +23,10 @@ substepof(Substepb,Step) :- substepof(Substepa,Step), dfollows(Substepa,Substepb
 % a step it also includes the substeps of that step
 stepin(Step,Recipe) :- includes(Recipe,Step).
 stepin(Substep,Recipe) :- stepin(Step,Recipe), substepof(Substep,Step).
-
-realizes(slowcooker, cooked).
-
-needstool(Recipe,Tool,Property) :- stepin(Step,Recipe), utool(Step,Tool), realizes(Tool,Property).
+%
+% a recipe needs a tool if a step in the recipe uses the tool or if
+% the recipe requires an ingredient satisfying a property
+needstool(Recipe,Tool,someproperty) :- stepin(Step,Recipe), utool(Step,Tool).
 needstool(Recipe,something,Property) :- requires(Recipe,Ingredient), satisfies(Ingredient, Property).
 
 
