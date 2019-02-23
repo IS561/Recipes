@@ -1,21 +1,26 @@
-% Slow cooker chicken soup
-
+% Slow cooker chicken soup recipe
+%
+% Instance graph assertions
 includes(sccs,step2).
-dfollows(step2-1,step2-2).
-hsubstep(step2,step2-1).
+dfollows(step2p1,step2p2).
+hsubstep(step2,step2p1).
 requires(sccs,chicken).
 hasconstit(chicken,chickenthighs).
 hasquant(chicken,lbs2).
 satisfies(chicken,bonein).
 satisfies(chicken,skinned).
 satisfies(chicken,trimmed).
-utool(step2-1,slowcooker).
-utool(step2-2,thing1).
+utool(step2p1,slowcooker).
+utool(step2p2,thing1).
 realizes(thing1,diced).
-
+%
+% substepof is the inverse relation to hsubstep and anything
+% directly following a substep is a substep of the same step
 substepof(Substep,Step) :- hsubstep(Step,Substep).
 substepof(Substepb,Step) :- substepof(Substepa,Step), dfollows(Substepa,Substepb).
-
+%
+% stepin is the inverse relation to includes and if a recipe includes
+% a step it also includes the substeps of that step
 stepin(Step,Recipe) :- includes(Recipe,Step).
 stepin(Substep,Recipe) :- stepin(Step,Recipe), substepof(Substep,Step).
 
