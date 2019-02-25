@@ -1,4 +1,7 @@
 % Slow cooker chicken soup recipe
+% https://www.southernliving.com/recipes/slow-cooker-chicken-soup
+% Datalog model by Dave Dubin
+% February, 2019
 
 %
 % Instance graph assertions
@@ -69,12 +72,6 @@ toolfor(Tool,Step) :- utool(Step,Tool).
 step(Step) :- utool(Step,_).
 tool(Tool) :- utool(_,Tool).
 
-
-
-
-
-
-
 %
 % Rules of inference
 %
@@ -87,9 +84,9 @@ stepin(Substep,Recipe) :- stepin(Step,Recipe), substepof(Substep,Step).
 
 % A recipe needs a tool if a step in the recipe uses the tool or if
 % the recipe requires an ingredient satisfying a property
-needstool(Recipe,Tool,someproperty) :- stepin(Step,Recipe), utool(Step,Tool).
 needstool(Recipe,something,Property) :- requires(Recipe,Ingredient), satisfies(Ingredient, Property).
 needstool(Recipe,Tool,Property) :-  stepin(Step,Recipe), utool(Step,Tool), realizes(Tool, Property).
+needstool(Recipe,Tool,someproperty) :-  stepin(Step,Recipe), utool(Step,Tool), not realizes(Tool, _).
 
 
 
