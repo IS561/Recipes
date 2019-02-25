@@ -14,22 +14,31 @@ utool(step2p1,slowcooker).
 utool(step2p2,thing1).
 realizes(thing1,diced).
 
+% Inverse, domain and codomain for 'realizes'
+realizedby(Property,Tool) :- realizes(Tool,Property).
+qproperty(Property) :- realizes(_,Property).
+tool(Tool) :- realizes(Tool,_).
+
+% Inverse, domain and codomain for 'utool'
 toolfor(Tool,Step) :- utool(Step,Tool).
 step(Step) :- utool(Step,_).
 tool(Tool) :- utool(_,Tool).
 
+% Inverse, domain and codomain for 'satisfies'
 satisfiedby(Property,Ingredient) :- satisfies(Ingredient,Property).
 ingredient(Ingredient) :- satisfies(Ingredient,_).
 qproperty(Property) :- satisfies(_,Property).
 
-% includes domain, and codomain
+% Domain and codomain for 'includes'
 recipe(Recipe) :- includes(Recipe,_).
 step(Step) :- includes(_,Step).
 
+% Inverse, domain and codomain for 'hasconstit'
 constitof(Food,Ingredient) :- hasconstit(Ingredient,Food).
 ingredient(Ingredient) :- hasconstit(Ingredient,_).
 foodsubstance(Food) :- hasconstit(_,Food).
 
+% Inverse, domain and codomain for 'hasquant'
 quantof(Quantity,Ingredient) :- hasquant(Ingredient,Quantity).
 quantity(Quantity) :- hasquant(_,Quantity).
 ingredient(Ingredient) :- hasquant(Ingredient,_).
