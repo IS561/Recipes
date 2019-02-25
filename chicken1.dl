@@ -89,6 +89,7 @@ stepin(Substep,Recipe) :- stepin(Step,Recipe), substepof(Substep,Step).
 % the recipe requires an ingredient satisfying a property
 needstool(Recipe,Tool,someproperty) :- stepin(Step,Recipe), utool(Step,Tool).
 needstool(Recipe,something,Property) :- requires(Recipe,Ingredient), satisfies(Ingredient, Property).
+needstool(Recipe,Tool,Property) :-  stepin(Step,Recipe), utool(Step,Tool), realizes(Tool, Property).
 
 
 
