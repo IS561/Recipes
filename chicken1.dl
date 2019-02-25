@@ -43,10 +43,12 @@ quantof(Quantity,Ingredient) :- hasquant(Ingredient,Quantity).
 quantity(Quantity) :- hasquant(_,Quantity).
 ingredient(Ingredient) :- hasquant(Ingredient,_).
 
+% Inverse, domain and codomain for 'dfollows'
 followedby(Step2,Step1) :- dfollows(Step1,Step2).
 step(Step) :- dfollows(Step,_).
 step(Step) :- dfollows(_,Step).
 
+% Inverse, domain and codomain for 'hsubstep'
 substepof(Substep,Step) :- hsubstep(Step,Substep).
 step(Step) :- hsubstep(Step,_).
 step(Step) :- hsubstep(_,Step).
