@@ -1,0 +1,25 @@
+% Slow cooker chicken soup recipe
+% https://www.southernliving.com/recipes/slow-cooker-chicken-soup
+% Datalog model by Dave Dubin
+% February, 2019
+
+%
+% Instance graph assertions
+%
+
+% Step and tool side
+includes(sccs,step2).
+dfollows(step2p1,step2p2).
+hsubstep(step2,step2p1).
+utool(step2p1,slowcooker).
+utool(step2p2,thing1).
+realizes(thing1,diced).
+
+% Ingredient side
+requires(sccs,chicken).
+hasconstit(chicken,chickenthighs).
+hasquant(chicken,lbs2).
+satisfies(chicken,bonein).
+satisfies(chicken,skinned).
+satisfies(chicken,trimmed).
+
