@@ -1,37 +1,33 @@
 % Slow cooker chicken soup recipe
+
 %
 % Instance graph assertions
+%
+
+% Step and tool side
 includes(sccs,step2).
 dfollows(step2p1,step2p2).
 hsubstep(step2,step2p1).
+utool(step2p1,slowcooker).
+utool(step2p2,thing1).
+realizes(thing1,diced).
+
+% Ingredient side
 requires(sccs,chicken).
 hasconstit(chicken,chickenthighs).
 hasquant(chicken,lbs2).
 satisfies(chicken,bonein).
 satisfies(chicken,skinned).
 satisfies(chicken,trimmed).
-utool(step2p1,slowcooker).
-utool(step2p2,thing1).
-realizes(thing1,diced).
 
-% Inverse, domain and codomain for 'realizes'
-realizedby(Property,Tool) :- realizes(Tool,Property).
-qproperty(Property) :- realizes(_,Property).
-tool(Tool) :- realizes(Tool,_).
+%
+% Domains, codomains, and inverse relationships
+%
 
-% Inverse, domain and codomain for 'utool'
-toolfor(Tool,Step) :- utool(Step,Tool).
-step(Step) :- utool(Step,_).
-tool(Tool) :- utool(_,Tool).
-
-% Inverse, domain and codomain for 'satisfies'
-satisfiedby(Property,Ingredient) :- satisfies(Ingredient,Property).
-ingredient(Ingredient) :- satisfies(Ingredient,_).
-qproperty(Property) :- satisfies(_,Property).
-
-% Domain and codomain for 'includes'
-recipe(Recipe) :- includes(Recipe,_).
-step(Step) :- includes(_,Step).
+% Inverse, domain and codomain for 'dfollows'
+followedby(Step2,Step1) :- dfollows(Step1,Step2).
+step(Step) :- dfollows(Step,_).
+step(Step) :- dfollows(_,Step).
 
 % Inverse, domain and codomain for 'hasconstit'
 constitof(Food,Ingredient) :- hasconstit(Ingredient,Food).
@@ -43,33 +39,53 @@ quantof(Quantity,Ingredient) :- hasquant(Ingredient,Quantity).
 quantity(Quantity) :- hasquant(_,Quantity).
 ingredient(Ingredient) :- hasquant(Ingredient,_).
 
-% Inverse, domain and codomain for 'dfollows'
-followedby(Step2,Step1) :- dfollows(Step1,Step2).
-step(Step) :- dfollows(Step,_).
-step(Step) :- dfollows(_,Step).
-
 % Inverse, domain and codomain for 'hsubstep'
 substepof(Substep,Step) :- hsubstep(Step,Substep).
 step(Step) :- hsubstep(Step,_).
 step(Step) :- hsubstep(_,Step).
 
+% Inverse, domain and codomain for 'includes'
+stepin(Step,Recipe) :- includes(Recipe,Step).
+recipe(Recipe) :- includes(Recipe,_).
+step(Step) :- includes(_,Step).
+
+% Inverse, domain and codomain for 'realizes'
+realizedby(Property,Tool) :- realizes(Tool,Property).
+qproperty(Property) :- realizes(_,Property).
+tool(Tool) :- realizes(Tool,_).
+
+% Inverse, domain and codomain for 'requires'
 requiredby(Ingredient,Recipe) :- requires(Recipe,Ingredient).
 recipe(Recipe) :- requires(Recipe,_).
 ingredient(Ingredient) :- requires(_,Ingredient).
 
+% Inverse, domain and codomain for 'satisfies'
+satisfiedby(Property,Ingredient) :- satisfies(Ingredient,Property).
+ingredient(Ingredient) :- satisfies(Ingredient,_).
+qproperty(Property) :- satisfies(_,Property).
+
+% Inverse, domain and codomain for 'utool'
+toolfor(Tool,Step) :- utool(Step,Tool).
+step(Step) :- utool(Step,_).
+tool(Tool) :- utool(_,Tool).
+
+
+
+
+
+
 
 %
-% substepof is the inverse relation to hsubstep and anything
-% directly following a substep is a substep of the same step
-substepof(Substep,Step) :- hsubstep(Step,Substep).
+% Rules of inference
+%
+
+% Anything directly following a substep is a substep of the same step
 substepof(Substepb,Step) :- substepof(Substepa,Step), dfollows(Substepa,Substepb).
-%
-% stepin is the inverse relation to includes and if a recipe includes
-% a step it also includes the substeps of that step
-stepin(Step,Recipe) :- includes(Recipe,Step).
+
+% If a recipe includes a step it also includes the substeps of that step
 stepin(Substep,Recipe) :- stepin(Step,Recipe), substepof(Substep,Step).
-%
-% a recipe needs a tool if a step in the recipe uses the tool or if
+
+% A recipe needs a tool if a step in the recipe uses the tool or if
 % the recipe requires an ingredient satisfying a property
 needstool(Recipe,Tool,someproperty) :- stepin(Step,Recipe), utool(Step,Tool).
 needstool(Recipe,something,Property) :- requires(Recipe,Ingredient), satisfies(Ingredient, Property).
