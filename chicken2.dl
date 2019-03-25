@@ -18,10 +18,17 @@ realizes(thing1,diced).
 % Ingredient side
 requires(sccs,chicken).
 hasconstit(chicken,chickenthighs).
-hasquant(chicken,lbs2).
+hasquant(chicken,twopounds).
+quantinpounds(twopounds,2).
 satisfies(chicken,bonein).
 satisfies(chicken,skinned).
 satisfies(chicken,trimmed).
+
+% Some other quantities
+hasquant(pork, onepound).
+quantinpounds(onepound,1).
+hasquant(broth, oneliter).
+quantinliters(oneliter,1).
 
 %
 % Domains, codomains, and inverse relationships
@@ -36,6 +43,24 @@ step(Step) :- dfollows(_,Step).
 constitof(Food,Ingredient) :- hasconstit(Ingredient,Food).
 ingredient(Ingredient) :- hasconstit(Ingredient,_).
 foodsubstance(Food) :- hasconstit(_,Food).
+
+% Quantity in pounds is a quantity
+quantity(Q) :- quantinpounds(Q,_).
+units(Q,pounds) :- quantinpounds(Q,_).
+numericValue(Q,V) :- quantinpounds(Q,V).
+
+% Quantity in liters is a quantity
+quantity(Q) :- quantinliters(Q,_).
+units(Q,liters) :- quantinliters(Q,_).
+numericValue(Q,V) :- quantinliters(Q,V).
+
+
+
+% Inequalities over quantities instead of numbers
+
+% Quantity greater than
+qgt(X,Y) :- quantity(X), quantity(Y), units(X,U), units(Y,U), numericValue(X,M), numericValue(Y,N), M > N.
+
 
 % Inverse, domain and codomain for 'hasquant'
 quantof(Quantity,Ingredient) :- hasquant(Ingredient,Quantity).
