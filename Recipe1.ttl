@@ -80,7 +80,7 @@
 
 :equalOrGreaterAmount a owl:ObjectProperty ;
 	rdfs:domain :Ingredient ;
-	rdfs:range :Igredient .
+	rdfs:range :Ingredient .
 
 :sccs :includes :step2 .
 
