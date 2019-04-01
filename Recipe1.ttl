@@ -133,11 +133,13 @@
 
 
 ###  http://is561.org/Recipes#stepIn
-:stepIn rdf:type owl:ObjectProperty .
+:stepIn rdf:type owl:ObjectProperty ;
+        owl:propertyChainAxiom ( :subStepOf :stepIn ) .
 
 
 ###  http://is561.org/Recipes#subStepOf
-:subStepOf rdf:type owl:ObjectProperty .
+:subStepOf rdf:type owl:ObjectProperty ;
+           owl:propertyChainAxiom ( :directlyFollows :subStepOf ) .
 
 
 ###  http://is561.org/Recipes#toolFor
