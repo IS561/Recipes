@@ -28,8 +28,14 @@
 #    Object Properties
 #################################################################
 
+###  http://is561.org/Recipes#constituentOf
+:constituentOf rdf:type owl:ObjectProperty ;
+               owl:inverseOf :hasConstituent .
+
+
 ###  http://is561.org/Recipes#directlyFollows
 :directlyFollows rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :followedBy ;
                  rdfs:domain :Step ;
                  rdfs:range :Step .
 
@@ -52,6 +58,10 @@
                          rdfs:range :Quantity .
 
 
+###  http://is561.org/Recipes#followedBy
+:followedBy rdf:type owl:ObjectProperty .
+
+
 ###  http://is561.org/Recipes#hasConstituent
 :hasConstituent rdf:type owl:ObjectProperty ;
                 rdfs:domain :Ingredient ;
@@ -60,6 +70,7 @@
 
 ###  http://is561.org/Recipes#hasQuantity
 :hasQuantity rdf:type owl:ObjectProperty ;
+             owl:inverseOf :quantityOf ;
              rdfs:domain :Ingredient ;
              rdfs:range :Quantity .
 
@@ -72,14 +83,25 @@
 
 ###  http://is561.org/Recipes#hasSubStep
 :hasSubStep rdf:type owl:ObjectProperty ;
+            owl:inverseOf :subStepOf ;
             rdfs:domain :Step ;
             rdfs:range :Step .
 
 
 ###  http://is561.org/Recipes#includes
 :includes rdf:type owl:ObjectProperty ;
+          owl:inverseOf :stepIn ;
           rdfs:domain :Recipe ;
           rdfs:range :Step .
+
+
+###  http://is561.org/Recipes#quantityOf
+:quantityOf rdf:type owl:ObjectProperty .
+
+
+###  http://is561.org/Recipes#realizedBy
+:realizedBy rdf:type owl:ObjectProperty ;
+            owl:inverseOf :realizesProperty .
 
 
 ###  http://is561.org/Recipes#realizesProperty
@@ -88,16 +110,39 @@
                   rdfs:range :QualifyingProperty .
 
 
+###  http://is561.org/Recipes#requiredBy
+:requiredBy rdf:type owl:ObjectProperty ;
+            owl:inverseOf :requires .
+
+
 ###  http://is561.org/Recipes#requires
 :requires rdf:type owl:ObjectProperty ;
           rdfs:domain :Recipe ;
           rdfs:range :Ingredient .
 
 
+###  http://is561.org/Recipes#satisfiedBy
+:satisfiedBy rdf:type owl:ObjectProperty ;
+             owl:inverseOf :satisfies .
+
+
 ###  http://is561.org/Recipes#satisfies
 :satisfies rdf:type owl:ObjectProperty ;
            rdfs:domain :Ingredient ;
            rdfs:range :QualifyingProperty .
+
+
+###  http://is561.org/Recipes#stepIn
+:stepIn rdf:type owl:ObjectProperty .
+
+
+###  http://is561.org/Recipes#subStepOf
+:subStepOf rdf:type owl:ObjectProperty .
+
+
+###  http://is561.org/Recipes#toolFor
+:toolFor rdf:type owl:ObjectProperty ;
+         owl:inverseOf :usesTool .
 
 
 ###  http://is561.org/Recipes#usesTool
