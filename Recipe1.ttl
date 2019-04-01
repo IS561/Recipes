@@ -20,88 +20,194 @@
 @prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix protege: <http://protege.stanford.edu/plugins/owl/protege#> .
+@base <http://is561.org/Recipes> .
 
-:Recipe a owl:Class .
-:Ingredient a owl:Class .
-:FoodSubstance a owl:Class .
-:Step a owl:Class .
-:Tool a owl:Class .
-:Quantity a owl:Class .
-:QualifyingProperty a owl:Class .
-:Source a owl:Class .
+<http://is561.org/Recipes> rdf:type owl:Ontology .
 
-:requires a owl:ObjectProperty ;
-	rdfs:domain :Recipe ;
-	rdfs:range :Ingredient .
+#################################################################
+#    Object Properties
+#################################################################
 
-:includes a owl:ObjectProperty ;
-	rdfs:domain :Recipe ;
-	rdfs:range :Step .
+###  http://is561.org/Recipes#directlyFollows
+:directlyFollows rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Step ;
+                 rdfs:range :Step .
 
-:hasSource a owl:ObjectProperty ;
-	rdfs:domain :Recipe ;
-	rdfs:range :Source .
 
-:directlyFollows a owl:ObjectProperty ;
-	rdfs:domain :Step ;
-	rdfs:range :Step .
+###  http://is561.org/Recipes#equalMagnitude
+:equalMagnitude rdf:type owl:ObjectProperty ;
+                rdfs:domain :Quantity ;
+                rdfs:range :Quantity .
 
-:hasSubStep a owl:ObjectProperty ;
-	rdfs:domain :Step ;
-	rdfs:range :Step .
 
-:usesTool a owl:ObjectProperty ;
-	rdfs:domain :Step ;
-	rdfs:range :Tool .
+###  http://is561.org/Recipes#equalOrGreaterAmount
+:equalOrGreaterAmount rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Ingredient ;
+                      rdfs:range :Ingredient .
 
-:satisfies a owl:ObjectProperty ;
-	rdfs:domain :Ingredient ;
-	rdfs:range :QualifyingProperty .
 
-:realizesProperty a owl:ObjectProperty ;
-	rdfs:domain :Tool ;
-	rdfs:range :QualifyingProperty .
+###  http://is561.org/Recipes#equalOrGreaterMagnitude
+:equalOrGreaterMagnitude rdf:type owl:ObjectProperty ;
+                         rdfs:domain :Quantity ;
+                         rdfs:range :Quantity .
 
-:hasConstituent a owl:ObjectProperty ;
-	rdfs:domain :Ingredient ;
-	rdfs:range :FoodSubstance .
 
-:hasQuantity a owl:ObjectProperty ;
-	rdfs:domain :Ingredient ;
-	rdfs:range :Quantity .
+###  http://is561.org/Recipes#hasConstituent
+:hasConstituent rdf:type owl:ObjectProperty ;
+                rdfs:domain :Ingredient ;
+                rdfs:range :FoodSubstance .
 
-:equalOrGreaterMagnitude a owl:ObjectProperty ;
-	rdfs:domain :Quantity ;
-	rdfs:range :Quantity .
 
-:equalMagnitude a owl:ObjectProperty ;
-	rdfs:domain :Quantity ;
-	rdfs:range :Quantity .
+###  http://is561.org/Recipes#hasQuantity
+:hasQuantity rdf:type owl:ObjectProperty ;
+             rdfs:domain :Ingredient ;
+             rdfs:range :Quantity .
 
-:equalOrGreaterAmount a owl:ObjectProperty ;
-	rdfs:domain :Ingredient ;
-	rdfs:range :Ingredient .
 
-:sccs :includes :step2 .
+###  http://is561.org/Recipes#hasSource
+:hasSource rdf:type owl:ObjectProperty ;
+           rdfs:domain :Recipe ;
+           rdfs:range :Source .
 
-:step2p2 :directlyFollows :step2p1 .
 
-:step2 :hasSubStep :step2p1 .
+###  http://is561.org/Recipes#hasSubStep
+:hasSubStep rdf:type owl:ObjectProperty ;
+            rdfs:domain :Step ;
+            rdfs:range :Step .
 
-:step2p1 :usesTool :slowcooker .
 
-:step2p2 :usesTool :thing1 .
+###  http://is561.org/Recipes#includes
+:includes rdf:type owl:ObjectProperty ;
+          rdfs:domain :Recipe ;
+          rdfs:range :Step .
 
-:thing1 :realizesProperty :diced .
 
-:sccs :requires :chicken .
+###  http://is561.org/Recipes#realizesProperty
+:realizesProperty rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Tool ;
+                  rdfs:range :QualifyingProperty .
 
-:chicken :hasConstituent :chickenthighs .
 
-:chicken :hasQuantity :lbs2 .
+###  http://is561.org/Recipes#requires
+:requires rdf:type owl:ObjectProperty ;
+          rdfs:domain :Recipe ;
+          rdfs:range :Ingredient .
 
-:chicken :satisfies :bonein .
 
-:chicken :satisfies :skinned .
+###  http://is561.org/Recipes#satisfies
+:satisfies rdf:type owl:ObjectProperty ;
+           rdfs:domain :Ingredient ;
+           rdfs:range :QualifyingProperty .
 
-:chicken :satisfies :trimmed .
+
+###  http://is561.org/Recipes#usesTool
+:usesTool rdf:type owl:ObjectProperty ;
+          rdfs:domain :Step ;
+          rdfs:range :Tool .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://is561.org/Recipes#FoodSubstance
+:FoodSubstance rdf:type owl:Class .
+
+
+###  http://is561.org/Recipes#Ingredient
+:Ingredient rdf:type owl:Class .
+
+
+###  http://is561.org/Recipes#QualifyingProperty
+:QualifyingProperty rdf:type owl:Class .
+
+
+###  http://is561.org/Recipes#Quantity
+:Quantity rdf:type owl:Class .
+
+
+###  http://is561.org/Recipes#Recipe
+:Recipe rdf:type owl:Class .
+
+
+###  http://is561.org/Recipes#Source
+:Source rdf:type owl:Class .
+
+
+###  http://is561.org/Recipes#Step
+:Step rdf:type owl:Class .
+
+
+###  http://is561.org/Recipes#Tool
+:Tool rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://is561.org/Recipes#bonein
+:bonein rdf:type owl:NamedIndividual .
+
+
+###  http://is561.org/Recipes#chicken
+:chicken rdf:type owl:NamedIndividual ;
+         :hasConstituent :chickenthighs ;
+         :hasQuantity :lbs2 ;
+         :satisfies :bonein ,
+                    :skinned ,
+                    :trimmed .
+
+
+###  http://is561.org/Recipes#chickenthighs
+:chickenthighs rdf:type owl:NamedIndividual .
+
+
+###  http://is561.org/Recipes#diced
+:diced rdf:type owl:NamedIndividual .
+
+
+###  http://is561.org/Recipes#lbs2
+:lbs2 rdf:type owl:NamedIndividual .
+
+
+###  http://is561.org/Recipes#sccs
+:sccs rdf:type owl:NamedIndividual ;
+      :includes :step2 ;
+      :requires :chicken .
+
+
+###  http://is561.org/Recipes#skinned
+:skinned rdf:type owl:NamedIndividual .
+
+
+###  http://is561.org/Recipes#slowcooker
+:slowcooker rdf:type owl:NamedIndividual .
+
+
+###  http://is561.org/Recipes#step2
+:step2 rdf:type owl:NamedIndividual ;
+       :hasSubStep :step2p1 .
+
+
+###  http://is561.org/Recipes#step2p1
+:step2p1 rdf:type owl:NamedIndividual ;
+         :usesTool :slowcooker .
+
+
+###  http://is561.org/Recipes#step2p2
+:step2p2 rdf:type owl:NamedIndividual ;
+         :directlyFollows :step2p1 ;
+         :usesTool :thing1 .
+
+
+###  http://is561.org/Recipes#thing1
+:thing1 rdf:type owl:NamedIndividual ;
+        :realizesProperty :diced .
+
+
+###  http://is561.org/Recipes#trimmed
+:trimmed rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
